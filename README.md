@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather App
+Descrição
+Este é um projeto de um aplicativo de clima desenvolvido com React e TypeScript, estilizado com Tailwind CSS. O aplicativo consome dados da Weather API para fornecer informações meteorológicas em tempo real de qualquer cidade inserida pelo usuário.
 
-Currently, two official plugins are available:
+# Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Busca por Cidade:** Permite ao usuário inserir o nome de uma cidade e obter informações meteorológicas atuais.
+- **Exibição** de Clima: Exibe o nome da cidade, temperatura atual, condição climática e um ícone representando o clima.
+- **Design Responsivo:** A interface é responsiva e adaptável a diferentes tamanhos de tela, garantindo uma experiência de usuário consistente em dispositivos móveis e desktops.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Tecnologias Utilizadas
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript:** Superset de JavaScript que adiciona tipagem estática ao código.
+- **Tailwind CSS:** Framework de CSS utilitário para estilização rápida e eficiente.
+- **Axios:** Biblioteca para realizar requisições HTTP.
+- **Weather API:** API utilizada para obter dados meteorológicos.
